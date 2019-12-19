@@ -1,0 +1,83 @@
+/* Variables */
+@charset 'UTF-8';
+
+/// @group    Configurações
+
+$colors: (
+  primary     : (
+    lighter    : #365ac5,
+    lighten    : #2760cb,
+    base       : #0036bf,
+  ),
+  secondary   : #f4c867,
+  light: (
+    base       : #ffffff,
+  ),
+  dark: (
+    base      : #7a7c85,
+  ),
+  danger      : #f85757,
+  success     : #a4cb1b,
+  warning     : #febc11,
+
+) !default;
+
+/// @group    Fontes
+
+$font-config: (
+  thin: (
+    name: Roboto,
+    weight: 100
+  ),
+  light: (
+    name: Roboto,
+    weight: 300
+  ),
+  base: (
+    name: Roboto,
+    weight: 400
+  ),
+  medium: (
+    name: Roboto,
+    weight: 500
+  ),
+  bold: (
+    name: Roboto,
+    weight: 700
+  ),
+  black: (
+    name: Roboto,
+    weight: 900
+  )
+) !default;
+
+$font-fallback: Tahoma, Verdana, Segoe, sans-serif !default;
+
+/// @group    Fontes
+$font-sizes: (
+  xbig		  :	  44px,
+  big		    :	  32px,
+  large		  :	  24px,
+  medium		:	  16px,
+  normal		:	  14px
+) !default;
+
+/// @group    Breakpoints
+$breakpoints: (
+  small   : 641px,
+  medium  : 769px,
+  large   : 1200px,
+  xlarge  : 1321px,
+  xxlarge : 1921px
+) !default;
+
+/// @group Spaces
+$spaces: (
+  s       :     4px,
+  p       :     8px,
+  base    :     16px,
+  m       :     24px,
+  g       :     32px,
+  gg      :     48px,
+  xg      :     56px
+) !default;

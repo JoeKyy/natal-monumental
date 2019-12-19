@@ -1,0 +1,15 @@
+a,
+[type="submit"],
+button{
+	&.btn {
+		&-primary {
+
+			&:hover {
+			}
+
+			&:active,
+			&:focus {
+			}
+		}
+	}
+}

@@ -1,0 +1,93 @@
+h1,
+.h1 {
+    font-size: font-size(big);
+}
+
+h2,
+.h2 {
+    margin: space(base) 0;
+
+    font-size: font-size(big);
+}
+
+h3,
+.h3 {
+    margin: space(base) 0;
+
+    font-size: font-size(large);
+}
+
+h4,
+.h4 {
+    margin: space(base) 0;
+
+    font-size: font-size(medium);
+}
+
+h5,
+.h5 {
+    margin: space(base) 0;
+
+    font-size: font-size(normal);
+}
+
+h6,
+.h6 {
+    margin: space(base) 0;
+
+    font-size: font-size(small);
+}
+
+p {
+    margin-bottom: space(base);
+
+    font-size: font-size(normal);
+}
+
+hr {
+    margin: space(p) 0;
+}
+
+ul {
+    li {
+        font-size: font-size(normal);
+    }
+}
+
+a {
+   color: inherit;
+
+   &:hover {
+        color: inherit;
+        text-decoration: underline;
+   }
+}
+
+em {
+    font-style: italic
+}
+
+strong {
+    @include font(bold);
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.text-size-big {
+    font-size: font-size(big) !important;
+}
+.text-size-large {
+    font-size: font-size(large) !important;
+}
+.text-size-medium {
+    font-size: font-size(medium) !important;
+}
+.text-size-normal {
+    font-size: font-size(normal) !important;
+}
+.text-size-small {
+    font-size: font-size(small) !important;
+}
